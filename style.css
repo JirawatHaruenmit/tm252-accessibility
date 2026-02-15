@@ -1,0 +1,72 @@
+/* FIX (Issue 1): Improved colour contrast to meet WCAG accessibility standards */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+
+    background-color: #ffffff;  /* white background */
+    color: #222222;             /* dark grey text (high contrast) */
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header styling */
+header {
+    background-color: #003366;  /* dark blue */
+    color: #ffffff;             /* white text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Navigation styling */
+nav {
+    background-color: #0055aa;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;  /* FIX: high contrast link colour */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

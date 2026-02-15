@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <!-- FIX (Part 1b.i): changed author from TM252 Module Team to my OUCU -->
+    <meta name="author" content="I6425821">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Accessible Web Page Example</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FIX: Proper heading structure -->
+    <header>
+        <h1>Welcome to My Accessible Website</h1>
+    </header>
+
+    <!-- FIX: Navigation structure added -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This page demonstrates accessibility improvements for TM252 assignment.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+
+            <!-- FIX: Added alternative text -->
+            <img src="example.jpg" alt="Example image showing accessibility features">
+
+            <p>This image now includes proper alt text for screen reader users.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: example@email.com</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student OUCU: I6425821</p>
+    </footer>
+
+</body>
+</html>
